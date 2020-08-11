@@ -1,0 +1,47 @@
+[
+	{
+		"price": 24.99,
+		"productCode": "CHAIR_RED",
+		"name": "Red plastic chair"
+	},
+	{
+		"price": 24.99,
+		"productCode": "DIS_10-CHAIR_BLUE",
+		"name": "Blue plastic chair"	
+	},
+	{
+		"price": 24.99,
+		"productCode": "CHAIR_WHITE",
+		"name": "White plastic chair"	
+	},
+	{
+		"price": 24.99,
+		"productCode": "STOOL_WHITE",
+		"name": "White plastic footstool"	
+	},
+	{
+		"price": 24.99,
+		"productCode": "DIS_15-STOOL_GREEN",
+		"name": "Green plastic footstool"	
+	},
+	{
+		"price": 74.99,
+		"productCode": "DIS_15-STOOL_GREEN",
+		"name": "Wooden computer desk"	
+	},
+	{
+		"price": 129.99,
+		"productCode": "COMP_CHAIR",
+		"name": "Computer swivel chair"	
+	},
+	{
+		"price": 249.99,
+		"productCode": "BOARD_TABLE",
+		"name": "12-person boardroom table"	
+	},
+	{
+		"price": 99.99,
+		"productCode": "BOARD_CHAIR",
+		"name": "Boardroom chair"	
+	}
+]            

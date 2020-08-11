@@ -1,0 +1,23 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Shopping Cart coding problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine",
+    "start": "node index.js",
+    "dev": "NODE_ENV=development nodemon -r dotenv/config --inspect=0.0.0.0 index.js"
+  },
+  "author": "Thoughtworks",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jasmine": "^2.5.3",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

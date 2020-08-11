@@ -1,0 +1,16 @@
+version: "3.2"
+
+services:
+  webapp:
+    container_name: shopping-cart
+    privileged: true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file: .env
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
