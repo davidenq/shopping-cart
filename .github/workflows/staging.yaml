@@ -67,7 +67,8 @@ jobs:
           NODE_ENV: staging
           PORT: 3000
   changelog:
-    name: Create Release
+    needs: approve
+    name: create release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -92,7 +93,8 @@ jobs:
           draft: false
           prerelease: false
   release:
-    name: Setup
+    needs: approve
+    name: setup release
     runs-on: ubuntu-latest
     steps:
       - name: checkout
